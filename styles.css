@@ -122,6 +122,15 @@ h1 span { color: var(--gold); }
 .downloads, .steps { width: min(1120px, calc(100% - 40px)); margin: 0 auto; padding: 90px 0; }
 .section-title { margin-bottom: 34px; }
 .section-title h2 { margin: 8px 0 0; font: 400 clamp(2rem, 5vw, 3.6rem) Georgia, serif; }
+.update-note {
+  margin: -10px 0 28px;
+  padding: 16px 18px;
+  border: 1px solid rgba(201,154,72,.48);
+  background: rgba(201,154,72,.08);
+  color: #c8c2b8;
+  line-height: 1.9;
+}
+.update-note b { color: var(--gold); }
 .cards { display: grid; grid-template-columns: repeat(2, 1fr); gap: 20px; }
 .card {
   position: relative;
